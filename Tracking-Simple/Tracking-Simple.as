@@ -1,5 +1,4 @@
 import mx.utils.Delegate
-import flash.geom.Rectangle
 
 System.security.allowDomain("*");
 var api :Object;
@@ -13,13 +12,11 @@ function apiInit (inAPI:Object):Void
 	// Record hover events when the user hovers over the Facebook and
 	// Twitter buttons
 	FbButton.onRollOver = Delegate.create(this, function () {
-		userEvent = api.logging.createUserEvent(api.logging.constants.labels.HOVER, 
-												"FbButton");
+		userEvent = api.logging.createUserEvent(api.logging.constants.labels.HOVER, "FbButton");
 		recordEvent(userEvent, api.logging.constants.labels.HOVER, "FbButton");
 	});
 	TwButton.onRollOver = Delegate.create(this, function () {
-		userEvent = api.logging.createUserEvent(api.logging.constants.labels.HOVER,
-												"TwButton");
+		userEvent = api.logging.createUserEvent(api.logging.constants.labels.HOVER, "TwButton");
 		recordEvent(userEvent, api.logging.constants.labels.HOVER, "TwButton");
 	});
 
