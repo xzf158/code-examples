@@ -31,7 +31,7 @@ function apiInit (AdAPI:Object):Void
 			scrollbar_config, Delegate.create(this, scrollbarLoaded), null);
 
 	// Hiding existing content, and load the blog into the text area
-	_api.hideContent(0);
+	_api.ui.hideContent(0);
 	var blogFeed:String = "http://www.flite.com/blog/rss.xml";
 	var newsFeed:String = "http://www.flite.com/in-the-news/rss.xml";
 	loadBlog();
@@ -46,7 +46,7 @@ function apiInit (AdAPI:Object):Void
 // Flite blog.
 function loadBlog ():Void
 {
-	var myParser:Object = _api.getFeedParser();
+	var myParser:Object = _api.ui.factory.getFeedParser();
 	myParser.addEventListener ("onLoadComplete", this);
 	myParser.maxArticles = 4;
 	myParser.isRandom = true;
@@ -57,7 +57,7 @@ function loadBlog ():Void
 // Flite news feed.
 function loadNews ():Void
 {
-	var myParser:Object = _api.getFeedParser();
+	var myParser:Object = _api.ui.factory.getFeedParser();
 	myParser.addEventListener ("onLoadComplete", this);
 	myParser.maxArticles = 2;
 	myParser.isRandom = true;
