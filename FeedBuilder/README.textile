@@ -1,0 +1,19 @@
+This code example creates an ad that builds and displays a feed dynamically. It also uses a Flite scrollbar to scroll through the feed. To see it in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Blank Ad*.
+#* Click *Custom* to enter custom dimensions for the ad, and change the width to 610. Leave the height at its 250 default.
+#* Click *Make Ad* to create a new 610x250 ad in Ad Studio.
+# Configure the ad’s background:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Change the *Theme Style* to *Full Background* to remove the header and footer.
+#* Expand the *Color* setting block and change the *Background* setting to “666666”. This gives the component a dark gray background.
+# Add the SWF file:
+#* Click *Style* to switch to the Style Editor.
+#* Change the *Tab Style* to *None* to remove tabs.
+#* Under *Content Mode (Advanced)* expand the *SWF* setting block and select the *Use API* radio button.
+#* Click the *Choose* button that appears, and upload the FeedBuilder.swf file found in this folder.
+
+You are done! Your ad should now appear in the preview panel. Click the two buttons in the ad to dynamically load Flite’s Blog and News feeds into the unit. Use the scrollbar on the right to scroll through the feeds.
+
+Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
