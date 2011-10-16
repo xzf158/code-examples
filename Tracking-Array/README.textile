@@ -29,7 +29,7 @@ This code example creates an ad that tracks events in batches every 2 seconds. I
 # Add the *SWF* file:
 #* Click *Theme* to go back to the Theme Editor.
 #* Expand the *Image* setting block.
-#* Click the *Choose* button, and upload the Tracking-Simple.swf file found in this folder using the *Upload As Is* option.
+#* Click the *Choose* button, and upload the Tracking-Array.swf file found in this folder using the *Upload As Is* option.
 
 You are done! The preview panel will display your ad. Hover over and click on the two buttons at the top of the ad to see the appropriate event names and payloads appear in the scrolling textbox at the bottom of the ad. Clicking the buttons will also switch between Flite’s Facebook and Twitter feeds.
 
