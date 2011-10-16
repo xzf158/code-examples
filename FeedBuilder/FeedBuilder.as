@@ -30,8 +30,7 @@ function apiInit (AdAPI:Object):Void
 	_api.ui.factory.getScrollBar (scrollerClip, "scroller", 
 			scrollbar_config, Delegate.create(this, scrollbarLoaded), null);
 
-	// Hiding existing content, and load the blog into the text area
-	_api.ui.hideContent(0);
+	// Load the blog into the text area
 	var blogFeed:String = "http://www.flite.com/blog/rss.xml";
 	var newsFeed:String = "http://www.flite.com/in-the-news/rss.xml";
 	loadBlog();
