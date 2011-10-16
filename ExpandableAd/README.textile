@@ -1,4 +1,4 @@
-The step-by-step instructions below go over how to use the SWF file in this code example to create an ad that is identical to the “Expandable Ads” example on the Developer Center ("http://dev.flite.com/code-examples/":http://dev.flite.com/code-examples/).
+The step-by-step instructions below go over how to use the *BaseUnit.swf* file in this folder to create an ad that is identical to the “Expandable Ads” example found in the Flite Developer Center ("http://dev.flite.com/code-examples/":http://dev.flite.com/code-examples/).
 # Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
 # Select the desired template and initialize the ad:
 #* Click *Blank Ad*.
@@ -12,6 +12,6 @@ The step-by-step instructions below go over how to use the SWF file in this code
 #* Click *Style* to switch to the Style Editor.
 #* Change the *Tab Style* to *None* to remove tabs.
 #* Under *Content Mode (Advanced)* expand the *SWF* setting block and select the *Use API* radio button.
-#* Click the *Choose* button that appears, and upload your SWF file.
+#* Click the *Choose* button that appears, and upload the BaseUnit.swf file found in this folder.
 
-You are done! The SWF file should now appear in the preview panel. Click the ad to launch the expansion, which contains Flite’s blog, Facebook, and Twitter feeds.
+You are done! A small banner ad for Flite should now appear in the preview panel. Click the ad to launch the expansion, which contains Flite’s blog, Facebook, and Twitter feeds.
