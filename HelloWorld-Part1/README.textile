@@ -1,0 +1,14 @@
+This code example represents the first part of the "Ad API Hello World example":http://dev.flite.com/some-basic-examples/ found on the Developer Center. All it does is initialize the API, and display an "API initialization successful!" message in the ad’s header if successful. To see it in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Socializer*.
+#* Leave the dimensions as they are and click *Make Ad* to create a new 300x250 ad in Ad Studio.
+# Add the SWF file to the header:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Expand the *Color* setting block and change the *Background* to white (ffffff).
+#* Expand the *Image* setting block in the *Header* tab at the bottom.
+#* Click the *Choose* button and upload the HelloWorld-Part1.swf file found in this folder using the *Upload As Is* option.
+
+You are done! The preview panel will display the default Socializer ad with the "API initialization successful!" text in the header.
+
+Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
