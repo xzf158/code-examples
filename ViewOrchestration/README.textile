@@ -1,4 +1,4 @@
-This code example creates an ad that repositions and reformats content within the ad, and creates a custom navigation system. To see it in action, do the following:
+This code example adds view orchestration to the ad, repositioning and reformatting content within the ad. It also creates a custom navigation system. To see it in action, do the following:
 # Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
 # Select the desired template and initialize the ad:
 #* Click *Socializer*.
