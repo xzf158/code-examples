@@ -7,10 +7,7 @@ function apiInit (inAPI:Object):Void
 {
 	_api	=	inAPI
 
-	// Start by hiding the existing content
-	_api.ui.hideContent(0)
-
-	// Next, position the two videos on the left, and size them appropriately
+	// Position the two videos on the left, and size them appropriately
 	var v1_config:Object			= 	_api.config.getContentConfig (2)
 		v1_config.width				= 	300
 		v1_config.height			= 	250

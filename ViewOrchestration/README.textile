@@ -1,0 +1,41 @@
+This code example creates an ad that repositions and reformats content within the ad, and creates a custom navigation system. To see it in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Socializer*.
+#* Click *Custom* to enter custom dimensions for the ad, change the width to 700, and change the height to 600.
+#* Click *Make Ad* to create a new 700x600 ad in Ad Studio.
+# Add Flite’s Twitter feed:
+#* Expand the *Twitter* content block.
+#* Change the *Username* to “flite”.
+# Add Flite’s Facebook feed:
+#* Expand the *Facebook* content block.
+#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
+# Add Flite’s blog feed:
+#* Expand the *Feed* content block.
+#* Change the *Tab Label* to “Blog”.
+#* Change the *URL* to "http://www.flite.com/blog":http://www.flite.com/blog.
+# Add a video:
+#* Click the *Video Gallery* icon under *Add New Content*. A lightbox pops up allowing you to add a new video gallery.
+#* Change the *Name* to “Flite Overview”
+#* Click the *Add Video* button to add a video manually.
+#* In the *Add a Video* lightbox that pops up, enter the following URL: "http://www.youtube.com/watch?v=wILsNhbN4O4":http://www.youtube.com/watch?v=wILsNhbN4O4. Then click OK. The video you added appears in the preview.
+#* Scroll down to the *Display Type* setting, and select the *Slideshow* radio button.
+#* Check the *Hide video titles* checkbox to hide the video’s title.
+#* Click the *Save Widget* button in the top right corner to add this video gallery to your ad.
+# Add a second video tab. Follow the same process as above, except use “Ad Builder Demo” as the *Name* and "http://www.youtube.com/watch?v=W5um5oqVxuQ":http://www.youtube.com/watch?v=W5um5oqVxuQ as the URL.
+# Rearrange the tabs:
+#* Collapse all expanded content blocks.
+#* Drag and drop the blocks until the order from top to bottom is Facebook, Twitter, Flite Overview video, Ad Builder Demo video, and Blog.
+# Configure the ad’s background:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Change the *Theme Style* to *Full Background* to remove the header and footer.
+#* Expand the *Color* setting block and change the *Background* setting to “333333”. This gives the component a dark gray background.
+# Add the SWF file:
+#* Click *Style* to switch to the Style Editor.
+#* Change the *Tab Style* to *None* to remove tabs.
+#* Under *Content Mode (Advanced)* expand the *SWF* setting block and select the *Use API* radio button.
+#* Click the *Choose* button that appears, and upload the ViewOrchestration.swf file found in this folder.
+
+You are done! The preview panel will display the ad with all the content you just added arranged and formatted in a very different way. The videos are in separate areas along the left, the feeds are on the right side, and each feed has a different color scheme. Click the custom navigation buttons along the bottom right to switch between feeds.
+
+Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
