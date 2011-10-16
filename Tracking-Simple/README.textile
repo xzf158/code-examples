@@ -1,0 +1,36 @@
+This code example creates an ad that tracks hovers and clicks on two custom navigation buttons, and displays the tracked events in a text area. To see it in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Socializer*.
+#* Click *Custom* to enter custom dimensions for the ad, and change the height to 380. Leave the width at its 300 default.
+#* Click Make Ad to create a new 300x380 ad in Ad Studio.
+# Add Flite’s Twitter feed:
+#* Expand the *Twitter* content block.
+#* Change the *Username* to “flite”.
+# Add Flite’s Facebook feed:
+#* Expand the *Facebook* content block.
+#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
+# Remove the Feed tab:
+#* Expand the *Feed* content block.
+#* Click the trashcan icon in the upper right of the block to delete this content block.
+#* Click the *Delete Content* button in the confirmation dialog box to confirm the deletion.
+# Configure the ad’s background:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Change the *Theme Style* to *Full Background* to remove the header and footer.
+#* Expand the *Color* setting block and change the *Background* setting to “cccccc”. This gives the component a light gray background.
+#* Expand the *Padding* block and change the padding around the content area as follows:
+#** *Top*: 50
+#** *Bottom*: 80
+#** *Right*: 4
+#** *Left*: 4
+# Remove the default tabs:
+#* Click *Style* to switch to the Style Editor.
+#* Change the *Tab Style* to *None* to remove tabs.
+# Add the *SWF* file:
+#* Click *Theme* to go back to the Theme Editor.
+#* Expand the *Image* setting block.
+#* Click the *Choose* button, and upload the Tracking-Simple.swf file found in this folder using the *Upload As Is* option.
+
+You are done! The preview panel will display your ad. Hover over and click on the two buttons at the top of the ad to see the appropriate event names and payloads appear in the scrolling textbox at the bottom of the ad. Clicking the buttons will also switch between Flite’s Facebook and Twitter feeds.
+
+Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
