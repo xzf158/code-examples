@@ -1,0 +1,31 @@
+This code example represents the third and final part of the "Ad API Hello World example":http://dev.flite.com/some-basic-examples/ found on the Developer Center. It changes the text displayed in the ad’s header based on which tab is in focus, and uses a placement setting that allows you to change the text associated with the first tab on a per-placement basis. To see this example in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Socializer*.
+#* Leave the dimensions as they are and click *Make Ad* to create a new 300x250 ad in Ad Studio.
+# Drag and drop the *Feed* content block above the other two blocks, making “Feed” the first tab in the ad.
+# Create a new placement setting:
+#* Click the *Settings* button to switch to the Settings Editor.
+#* Click *Add a Setting* under the *Placement Settings* heading.
+#* Expand the new setting block, and configure the parameters as follows:
+#** *Label*: Front Tab Header
+#** *Setting Name*: front_tab_header
+#** *Default Value*: Hello World!
+#** *Override*: Yes
+# Add the SWF file to the header:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Expand the *Color* setting block and change the *Background* to white (ffffff).
+#* Expand the *Image* setting block in the *Header* tab at the bottom.
+#* Click the *Choose* button that appears, and upload the HelloWorld-Part1.swf file found in this folder using the *Upload As Is* option. The ad reloads with the “Hello World!” text in the header.
+# Click *Save Progress* to save your changes.
+# Create a new placement:
+#* Click *Flight* in the upper right of your Ad Studio window to switch to the Flight Module.
+#* Click *Placements* to switch to the Placement Editor.
+#* Click the *Make New* button to create a new placement.
+#* Expand the new placement block.
+#* Change the *Front Tab Header* setting to “Custom Header”.
+#* Click *Save* to save the placement settings.
+
+You are done! The preview panel will display a preview of the placement you just created. Notice that the header reads “Custom Header”. If you switch back to the Edit Module or open the ad’s homepage, you will see the default “Hello World!” in the header. You can also make additional placements and change the header text associated with the first tab in each one.
+
+See the "Ad API Hello World example":http://dev.flite.com/some-basic-examples/ for more details. Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
