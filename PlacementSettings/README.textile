@@ -1,0 +1,64 @@
+This code example parameterizes an ad using placement settings, allowing you to create multiple placements of the same ad that look and behave differently. More specifically, the color of the company logo, its clickthrough link, and the order of the three tabs are parameterized. To see this in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Socializer*.
+#* Click *Custom* to enter custom dimensions for the ad, and change the height to 350. Leave the width at its 300 default.
+#* Click *Make Ad* to create a new 300x350 ad in Ad Studio.
+# Drag and drop the *Feed* content block above the other two blocks, making “Feed” the first tab in the ad.
+# Add Flite’s Twitter feed:
+#* Expand the *Twitter* content block.
+#* Change the *Username* to “flite”.
+# Add Flite’s Facebook feed:
+#* Expand the *Facebook* content block.
+#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
+# Create the “Logo Color” placement setting:
+#* Click the *Settings* button to switch to the Settings Editor.
+#* Click *Add a Setting* under the *Placement Settings* heading.
+#* Expand the new setting block, and configure the parameters as follows:
+#** *Label*: Logo Color
+#** *Setting Name*: LogoColor
+#** *Default Value*: blue
+#** *Override*: Yes
+# Create the “Logo Link” placement setting:
+#* Click *Add a Setting* under the *Placement Settings* heading.
+#*Expand the new setting block, and configure the parameters as follows:
+#** *Label*: Logo Link
+#** *Setting Name*: LogoLink
+#** *Default Value*: "http://www.flite.com":http://www.flite.com
+#** *Override*: Yes
+# Create the “Tab Order” placement setting:
+#* Click *Add a Setting* under the *Placement Settings* heading.
+#* Expand the new setting block, and configure the parameters as follows:
+#** *Label*: Tab Order
+#** *Setting Name*: TabOrder
+#** *Default Value*: 0,1,2
+#** *Override*: Yes
+# Configure the ad’s background:
+#* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
+#* Change the *Theme Style* to *Full Background* to remove the header and footer.
+#* Expand the *Padding* block and change the *Top* padding to 80.
+# Add the SWF file to the header:
+#* Expand the *Image* setting block under *Full Background*.
+#* Click the *Choose* button that appears, and upload the PlacementSettings.swf file found in this folder using the *Upload As Is* option.
+# Click *Save Progress* to save your changes.
+# Create a new placement:
+#* Click *Flight* in the upper right of your Ad Studio window to switch to the Flight Module.
+#* Click *Placements* to switch to the Placement Editor.
+#* Click the *Make New* button to create a new placement.
+#* Expand the new placement block.
+#* Change the *Name* to “P1”. Leave all other placement settings at their defaults.
+#* Click *Save*.
+# Create a second placement:
+#* Click *Make New* to create a new placement.
+#* Expand the new placement block.
+#* Change the placement settings as follows:
+#** *Name*: P2
+#** *Logo Color*: orange
+#** *Logo Link*: none
+#** *Tab Order*: 2,0,1
+#* Click *Save*.
+
+You are done! Click on the first placement to see its preview. The Flite logo is blue and the tabs are ordered Blog, Twitter, Facebook. Click on the logo to click through to "http://www.flite.com":http://www.flite.com. Now click on the second placement. The Flite logo is orange and does not have a clickthrough link, and the tabs are ordered Facebook, Blog, Twitter. You can make additional placements and change these three parameters for each one.
+
+Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
+

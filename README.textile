@@ -1,0 +1,11 @@
+This folder contains code examples intended to teach Flite platform users how to use the Flite Ad API to customize their ads and to build ad components. The user is expected to have a Flite account and some familiarity with Flite tools, including the Console and Ad Studio.
+
+Each code example contains the following:
+* A SWF file that can be inserted directly into a Flite ad.
+* An FLA file from which the SWF was compiled. You can open this in Adobe Flash and make any changes you want.
+* An AS file containing the ActionScript code for the example.
+* A ZIP file containing all of the above.
+
+Each code example also has its own README file, explaining what the code example does and how to use it.
+
+You can see all the code examples in action on Flite’s Developer Center at "http://dev.flite.com/code-examples":http://dev.flite.com/code-examples/.
