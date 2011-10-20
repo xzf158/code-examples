@@ -1,0 +1,13 @@
+This folder contains code examples intended to teach the user how to create a simple Flite ad component using Flash and Flite's Component Studio tool. 
+
+There are three examples in this folder, each one building on the previous:
+* *Component-Example-1* contains the basic functionality of a "Twitter Geo Search" component that allows users to find tweets made on a certain topic near a particular location. The 
+* *Component-Example-2* adds some metrics tracking to this component. These metrics will show up in Flite's reporting engine.
+* *Component-Example-3* adds configuration parameters, allowing customers to change various aspects of the component's functionality, layout, and appearance.
+
+Each example consists of an FLA file with all the Flash graphical elements, a compiled SWF file that can be inserted directly into Component Studio, and four AS files. The code architecture conforms to basic Model-View-Controller architecture principles:
+* *ExampleX_Main.as*: The main file that is included in the FLA. It initializes the component’s Model, View and Controller.
+* *ExampleX_Model.as*: The component’s Model, which will manages the component’s data and state.
+* *ExampleX_View.as*: The component’s View, which handles how the component is displayed.
+* *ExampleX_Controller.as*: The Controller, which listens for user events and makes changes to the model based on those events.
+
