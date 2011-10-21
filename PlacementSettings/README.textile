@@ -5,6 +5,10 @@ This code example parameterizes an ad using placement settings, allowing you to 
 #* Click *Custom* to enter custom dimensions for the ad, and change the height to 350. Leave the width at its 300 default.
 #* Click *Make Ad* to create a new 300x350 ad in Ad Studio.
 # Drag and drop the *Feed* content block above the other two blocks, making “Feed” the first tab in the ad.
+# Add Flite’s blog feed:
+#* Expand the Feed content block.
+#* Change the Tab Label to “Blog”.
+#* Change the URL to "http://www.flite.com/blog":http://www.flite.com/blog.
 # Add Flite’s Twitter feed:
 #* Expand the *Twitter* content block.
 #* Change the *Username* to “flite”.
