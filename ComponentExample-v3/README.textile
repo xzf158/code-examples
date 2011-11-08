@@ -1,0 +1,24 @@
+This very simple component code example creates a v3 component that draws a rectangle of the specified color and transparency. The component code is thoroughly commented and demonstrates best practices in creating and naming components. See the *v3 Ad API Documentation* for more details on how to create v3 components and use the API.
+
+To create this component, do the following:
+# Create a new v3 component using the SWF file in this folder and a name of your choosing.
+# In Component Studio, create a new parameter as described below. This parameter will control the color of your rectangle.
+#* *Parameter*: color_param_name
+#* *Type*: Color Picker
+#* *Label*: Rectangle Color
+# Create a second new parameter as described below. This parameter will control the transparency of the rectangle from 0 (fully transparent) to 1 (fully opaque).
+#* Parameter: alpha_param_name
+#* Type: Text Field
+#* Label: Rectangle Transparency
+#* Help Text: Must be between 0 and 1
+# Click *Publish Changes* to save your new component.
+
+Once you have created the component, add it to the Ad Studio menu using the *Resources* menu in the Flite Console. Then open an ad in Ad Studio v3. Your new component will appear in the component list on the right. Add the component to the stage and you will see the "Rectangle Color" and "Rectangle Transparency" settings you created in the *Settings* section of the component *Inspector*. Adjust these as you wish.
+
+This code example creates a simple expandable ad. To see it in action, do the following:
+# Log into your Flite Console and create a new ad. The *Make an Ad* page opens, prompting you to select a template.
+# Select the desired template and initialize the ad:
+#* Click *Blank Ad*.
+#* Click *Custom* to enter custom dimensions for the ad, and change the height to 100. Leave the width at its default 300.
+#* Click *Make Ad* to create a new 300x100 ad in Ad Studio.
+# Configure the ad’s background:
