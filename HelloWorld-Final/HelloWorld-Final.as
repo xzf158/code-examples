@@ -12,7 +12,7 @@ function apiInit(api){
 			mytext.text = "Friend me!";
 		}
 		else {
-			mytext.text = api.config.placement.front_tab_header;
+			mytext.text = _api.config.placement.front_tab_header;
 		}
 	};
 	_api.ui.switchTab(0);
