@@ -7,13 +7,10 @@ This code example creates an ad that tracks events in batches every 2 seconds. I
 # Add Flite’s Twitter feed:
 #* Expand the *Twitter* content block.
 #* Change the *Username* to “flite”.
-# Add Flite’s Facebook feed:
-#* Expand the *Facebook* content block.
-#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
-# Remove the Feed tab:
+# Add Flite’s blog feed:
 #* Expand the *Feed* content block.
-#* Click the trashcan icon in the upper right of the block to delete this content block.
-#* Click the *Delete Content* button in the confirmation dialog box to confirm the deletion.
+#* Change the *Tab Label* to “Blog”.
+#* Change the *URL* to "http://www.flite.com/blog":http://www.flite.com/blog.
 # Configure the ad’s background:
 #* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
 #* Change the *Theme Style* to *Full Background* to remove the header and footer.
@@ -31,6 +28,6 @@ This code example creates an ad that tracks events in batches every 2 seconds. I
 #* Expand the *Image* setting block.
 #* Click the *Choose* button, and upload the Tracking-Array.swf file found in this folder using the *Upload As Is* option.
 
-You are done! The preview panel will display your ad. Hover over and click on the two buttons at the top of the ad to see the appropriate event names and payloads appear in the scrolling textbox at the bottom of the ad. Clicking the buttons will also switch between Flite’s Facebook and Twitter feeds.
+You are done! The preview panel will display your ad. Hover over and click on the two buttons at the top of the ad to see the appropriate event names and payloads appear in the scrolling textbox at the bottom of the ad. Clicking the buttons will also switch between Flite’s YouTube and Twitter feeds.
 
 Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.

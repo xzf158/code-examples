@@ -7,9 +7,6 @@ This code example adds view orchestration to the ad, repositioning and reformatt
 # Add Flite’s Twitter feed:
 #* Expand the *Twitter* content block.
 #* Change the *Username* to “flite”.
-# Add Flite’s Facebook feed:
-#* Expand the *Facebook* content block.
-#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
 # Add Flite’s blog feed:
 #* Expand the *Feed* content block.
 #* Change the *Tab Label* to “Blog”.
@@ -25,7 +22,7 @@ This code example adds view orchestration to the ad, repositioning and reformatt
 # Add a second video tab. Follow the same process as above, except use “Ad Builder Demo” as the *Name* and "http://www.youtube.com/watch?v=W5um5oqVxuQ":http://www.youtube.com/watch?v=W5um5oqVxuQ as the URL.
 # Rearrange the tabs:
 #* Collapse all expanded content blocks.
-#* Drag and drop the blocks until the order from top to bottom is Facebook, Twitter, Flite Overview video, Ad Builder Demo video, and Blog.
+#* Drag and drop the blocks until the order from top to bottom is Twitter, Flite Overview video, Ad Builder Demo video, and Blog.
 # Configure the ad’s background:
 #* In Ad Studio, click the *Theme* button to switch to the Theme Editor.
 #* Change the *Theme Style* to *Full Background* to remove the header and footer.

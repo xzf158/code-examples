@@ -14,6 +14,6 @@ This code example creates a simple expandable ad. To see it in action, do the fo
 #* Under *Content Mode (Advanced)* expand the *SWF* setting block and select the *Use API* radio button.
 #* Click the *Choose* button that appears, and upload the BaseUnit.swf file found in this folder.
 
-You are done! A small banner ad for Flite should now appear in the preview panel. Click the ad to launch the expansion, which contains Flite’s blog, Facebook, and Twitter feeds.
+You are done! A small banner ad for Flite should now appear in the preview panel. Click the ad to launch the expansion, which contains Flite’s blog, Twitter, and YouTube feeds.
 
 Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.

@@ -4,7 +4,7 @@ This code example parameterizes an ad using placement settings, allowing you to 
 #* Click *Socializer*.
 #* Click *Custom* to enter custom dimensions for the ad, and change the height to 350. Leave the width at its 300 default.
 #* Click *Make Ad* to create a new 300x350 ad in Ad Studio.
-# Drag and drop the *Feed* content block above the other two blocks, making “Feed” the first tab in the ad.
+# Drag and drop the *Feed* content block above the Twitter block, making “Feed” the first tab in the ad.
 # Add Flite’s blog feed:
 #* Expand the *Feed* content block.
 #* Change the *Tab Label* to “Blog”.
@@ -12,9 +12,9 @@ This code example parameterizes an ad using placement settings, allowing you to 
 # Add Flite’s Twitter feed:
 #* Expand the *Twitter* content block.
 #* Change the *Username* to “flite”.
-# Add Flite’s Facebook feed:
-#* Expand the *Facebook* content block.
-#* Change the *URL* to "http://www.facebook.com/flite":http://www.facebook.com/flite.
+# Add Flite’s YouTube feed:
+#* Click the *YouTube* icon under the *Add New Content* heading. A new setting block appears.
+#* Change the *Video* setting to "fliteinc". This will source videos from the fliteinc YouTube username.
 # Create the “Logo Color” placement setting:
 #* Click the *Settings* button to switch to the Settings Editor.
 #* Click *Add a Setting* under the *Placement Settings* heading.
@@ -62,7 +62,7 @@ This code example parameterizes an ad using placement settings, allowing you to 
 #** *Tab Order*: 2,0,1
 #* Click *Save*.
 
-You are done! Click on the first placement to see its preview. The Flite logo is blue and the tabs are ordered Blog, Twitter, Facebook. Click on the logo to click through to "http://www.flite.com":http://www.flite.com. Now click on the second placement. The Flite logo is orange and does not have a clickthrough link, and the tabs are ordered Facebook, Blog, Twitter. You can make additional placements and change these three parameters for each one.
+You are done! Click on the first placement to see its preview. The Flite logo is blue and the tabs are ordered Blog, Twitter, YouTube. Click on the logo to click through to "http://www.flite.com":http://www.flite.com. Now click on the second placement. The Flite logo is orange and does not have a clickthrough link, and the tabs are ordered YouTube, Blog, Twitter. You can make additional placements and change these three parameters for each one.
 
 Download the FLA and AS files and open them in Adobe Flash if you want to make changes to this example.
 

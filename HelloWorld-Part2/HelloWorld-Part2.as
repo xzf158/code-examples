@@ -8,8 +8,8 @@ function apiInit(api){
 		if (_api.config.tab.title(tabId) == "Twitter") {
 			mytext.text = "Tweet tweet!";
 		}
-		else if (_api.config.tab.title(tabId) == "Facebook") {
-			mytext.text = "Friend me!";
+		else if (_api.config.tab.title(tabId) == "YouTube") {
+			mytext.text = "Watch me!";
 		}
 		else {
 			mytext.text = "Chicken feed"

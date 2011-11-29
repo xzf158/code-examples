@@ -9,30 +9,30 @@ function apiInit (inAPI:Object):Void
 	_api = inAPI;
 	MyText.backgroundColor = 0xCCCCCC;
 
-	// Record hover events when the user hovers over the Facebook and
+	// Record hover events when the user hovers over the Blog and
 	// Twitter buttons
-	FbButton.onRollOver = Delegate.create(this, function () {
-		var userEvent = _api.logging.createUserEvent(_api.logging.constants.labels.HOVER, "FbButton");
-		recordEvent(userEvent, _api.logging.constants.labels.HOVER, "FbButton");
+	BlogButton.onRollOver = Delegate.create(this, function () {
+		var userEvent = _api.logging.createUserEvent(_api.logging.constants.labels.HOVER, "BlogButton");
+		recordEvent(userEvent, _api.logging.constants.labels.HOVER, "BlogButton");
 	});
-	TwButton.onRollOver = Delegate.create(this, function () {
-		var userEvent = _api.logging.createUserEvent(_api.logging.constants.labels.HOVER, "TwButton");
-		recordEvent(userEvent, _api.logging.constants.labels.HOVER, "TwButton");
+	TweetsButton.onRollOver = Delegate.create(this, function () {
+		var userEvent = _api.logging.createUserEvent(_api.logging.constants.labels.HOVER, "TweetsButton");
+		recordEvent(userEvent, _api.logging.constants.labels.HOVER, "TweetsButton");
 	});
 
 	// Record a ButtonClick user event and a MyTabSwitch auto event when the user
-	// clicks the Facebook or Twitter button
-	FbButton.onRelease = Delegate.create(this, function () {
-		_api.ui.switchTabByName("Facebook", null, true);
-		var userEvent = _api.logging.createUserEvent("ButtonClick", "FbButton");
-		recordEvent(userEvent, "ButtonClick", "FbButton");
-		var userEvent2 = _api.logging.createAutoEvent("MyTabSwitch", "Facebook");
-		recordEvent(userEvent2, "MyTabSwitch", "Facebook");
+	// clicks the Blog or Twitter button
+	BlogButton.onRelease = Delegate.create(this, function () {
+		_api.ui.switchTabByName("Blog", null, true);
+		var userEvent = _api.logging.createUserEvent("ButtonClick", "BlogButton");
+		recordEvent(userEvent, "ButtonClick", "BlogButton");
+		var userEvent2 = _api.logging.createAutoEvent("MyTabSwitch", "Blog");
+		recordEvent(userEvent2, "MyTabSwitch", "Blog");
 	});
-	TwButton.onRelease = Delegate.create(this, function () {
+	TweetsButton.onRelease = Delegate.create(this, function () {
 		_api.ui.switchTabByName("Twitter", null, true);
-		var userEvent = _api.logging.createUserEvent("ButtonClick", "TwButton");
-		recordEvent(userEvent, "ButtonClick", "TwButton");
+		var userEvent = _api.logging.createUserEvent("ButtonClick", "TweetsButton");
+		recordEvent(userEvent, "ButtonClick", "TweetsButton");
 		var userEvent2 = _api.logging.createAutoEvent("MyTabSwitch", "Twitter");
 		recordEvent(userEvent2, "MyTabSwitch", "Twitter");
 	});
