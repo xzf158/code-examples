@@ -8,9 +8,10 @@ To create this component, do the following:
 #* *Label*: Rectangle Color
 # Create a second new parameter as described below. This parameter will control the transparency of the rectangle from 0 (fully transparent) to 1 (fully opaque).
 #* *Parameter*: alpha_param_name
-#* *Type*: Text Field
+#* *Type*: Slider
 #* *Label*: Rectangle Transparency
-#* *Help Text*: Must be between 0 and 1
+#* *Min. Value*: 0
+#* *Max. Value*: 100
 # Click *Publish Changes* to save your new component.
 
-Once you have created the component, add it to the Ad Studio menu using the *Resources* menu in the Flite Console. Then open an ad in Ad Studio v3. Your new component will appear in the component list on the right. Add the component to the stage and you will see the "Rectangle Color" and "Rectangle Transparency" settings you created in the *Settings* section of the component *Inspector*. Adjust these as you wish.
+Once you have created the component, add it to the Ad Studio menu using the *Resources* menu in the Flite Console. Then open an ad in Ad Studio 3. Your new component will appear in the component list on the right. Add the component to the stage and you will see the "Rectangle Color" and "Rectangle Transparency" settings you created in the *Settings* section of the component *Inspector*. Adjust these as you wish.
