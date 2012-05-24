@@ -6,7 +6,7 @@ To create this component, do the following:
 #* *Parameter*: color_param_name
 #* *Type*: Color Picker
 #* *Label*: Rectangle Color
-# Create a second new parameter as described below. This parameter will control the transparency of the rectangle from 0 (fully transparent) to 1 (fully opaque).
+# Create a second new parameter as described below. This parameter will control the transparency of the rectangle from 0 (fully transparent) to 100 (fully opaque).
 #* *Parameter*: alpha_param_name
 #* *Type*: Slider
 #* *Label*: Rectangle Transparency
